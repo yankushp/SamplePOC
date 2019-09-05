@@ -8,3 +8,7 @@ Step files:- https://github.com/yankushp/SamplePOC/tree/master/ebay/src/main/jav
 Page file:- https://github.com/yankushp/SamplePOC/tree/master/ebay/src/main/java/com/auto/test/page/def
 
 Sample report:-https://github.com/yankushp/SamplePOC/tree/master/ebay/cucumber-reports
+
+Run command using maven :- mvn -Dtest=SomePatternThatDontMatchAnything -DfailIfNoTests=false verify
+
+
