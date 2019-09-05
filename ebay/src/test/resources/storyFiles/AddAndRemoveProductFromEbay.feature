@@ -1,4 +1,4 @@
-Feature: Search and select the product on ebay
+Feature: Ebay feature test
 
   @Ebay
   Scenario Outline: Add and remove the product from cart on ebay website

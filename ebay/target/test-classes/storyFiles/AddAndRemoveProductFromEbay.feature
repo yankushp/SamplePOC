@@ -1,7 +1,7 @@
-Feature: Search and select the product on ebay
+Feature: Ebay feature test
 
   @Ebay
-  Scenario Outline: Search and select the product on ebay website
+  Scenario Outline: Add and remove the product from cart on ebay website
 
     Given I enter test case "<TestCase Number>" to execute scenario "<TestScenario Name>" test
     When I navigate to Ebay website

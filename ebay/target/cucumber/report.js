@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("SelectEbayProduct.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AddAndRemoveProductFromEbay.feature");
 formatter.feature({
   "line": 1,
-  "name": "Search and select the product on ebay",
+  "name": "Ebay feature test",
   "description": "",
-  "id": "search-and-select-the-product-on-ebay",
+  "id": "ebay-feature-test",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "Search and select the product on ebay website",
+  "name": "Add and remove the product from cart on ebay website",
   "description": "",
-  "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website",
+  "id": "ebay-feature-test;add-and-remove-the-product-from-cart-on-ebay-website",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -69,7 +69,7 @@ formatter.examples({
   "line": 16,
   "name": "",
   "description": "",
-  "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;",
+  "id": "ebay-feature-test;add-and-remove-the-product-from-cart-on-ebay-website;",
   "rows": [
     {
       "cells": [
@@ -78,7 +78,7 @@ formatter.examples({
         "Product name"
       ],
       "line": 17,
-      "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;1"
+      "id": "ebay-feature-test;add-and-remove-the-product-from-cart-on-ebay-website;;1"
     },
     {
       "cells": [
@@ -87,20 +87,20 @@ formatter.examples({
         "book"
       ],
       "line": 18,
-      "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;2"
+      "id": "ebay-feature-test;add-and-remove-the-product-from-cart-on-ebay-website;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2831096503,
+  "duration": 2865420046,
   "status": "passed"
 });
 formatter.scenario({
   "line": 18,
-  "name": "Search and select the product on ebay website",
+  "name": "Add and remove the product from cart on ebay website",
   "description": "",
-  "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;2",
+  "id": "ebay-feature-test;add-and-remove-the-product-from-cart-on-ebay-website;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -176,14 +176,14 @@ formatter.match({
   "location": "BaseTest.i_enter_test_case_to_execute_scenario_test(String,String)"
 });
 formatter.result({
-  "duration": 60360498,
+  "duration": 73129143,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayHomePageSteps.i_navigate_to_Ebay_website()"
 });
 formatter.result({
-  "duration": 2806075323,
+  "duration": 2951634494,
   "status": "passed"
 });
 formatter.match({
@@ -196,57 +196,57 @@ formatter.match({
   "location": "EbayHomePageSteps.i_enter_the_and_search_the_product(String)"
 });
 formatter.result({
-  "duration": 6057896625,
+  "duration": 5162975399,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayProductListPageSteps.i_select_the_product_from_product_list_page()"
 });
 formatter.result({
-  "duration": 4146428953,
+  "duration": 4534077824,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayProductAddToCartPageSteps.i_see_added_product_in_product_purchase_page()"
 });
 formatter.result({
-  "duration": 51023178,
+  "duration": 54833363,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayProductAddToCartPageSteps.i_click_on_Add_to_cart_button()"
 });
 formatter.result({
-  "duration": 2751881446,
+  "duration": 2019771122,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayCartPageSteps.i_see_added_product_is_displayed_in_cart()"
 });
 formatter.result({
-  "duration": 51871371,
+  "duration": 56377588,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayCartPageSteps.i_remove_the_product_from_cart()"
 });
 formatter.result({
-  "duration": 115147596,
+  "duration": 102229874,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayCartPageSteps.i_see_a_message_you_dont_have_any_items_in_your_cart()"
 });
 formatter.result({
-  "duration": 553199693,
+  "duration": 627757913,
   "status": "passed"
 });
 formatter.after({
-  "duration": 359680092,
+  "duration": 375988530,
   "status": "passed"
 });
 formatter.after({
-  "duration": 894586061,
+  "duration": 823754236,
   "status": "passed"
 });
 });

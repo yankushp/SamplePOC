@@ -14,7 +14,7 @@
         <documentTitle>Yankush - Cucumber Framework</documentTitle>
 
         <!-- report name - displayed at top-nav -->
-        <reportName>BIG-W Test Report</reportName>
+        <reportName>Ebay Test Report</reportName>
 
         <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
         <dateFormat>yyyy-MM-dd</dateFormat>
