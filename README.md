@@ -11,4 +11,16 @@ Sample report:-https://github.com/yankushp/SamplePOC/tree/master/ebay/cucumber-r
 
 Run command using maven :- mvn -Dtest=SomePatternThatDontMatchAnything -DfailIfNoTests=false verify
 
+Tech stack used
 
+1. Maven 3.5.2
+
+2. Selenium 3.14.0
+
+3. Java 1.8
+
+4. Intellij IDE
+
+5. Cucumber 1.2.4
+
+6. Extent report .1.2
