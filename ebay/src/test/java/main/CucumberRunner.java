@@ -16,22 +16,4 @@ import org.junit.runner.RunWith;
 )
 public class CucumberRunner {
 
-
-//    @AfterClass
-//    public static void afterClass() throws Throwable {
-//        System.out.println( "this is after class");
-//        //BrowserDriverInitializer.closeDriver();
-//
-//
-//       /* //DriverFactory.appiumTearDown();
-//        Reporting rt = new Reporting();
-//        rt.terminatingReportGeneration();*/
-//        Reporter.loadXMLConfig(System.getProperty("user.dir")+"/src/test/resources/config/extent-config.xml");
-//        Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
-//        Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
-//        Reporter.addScenarioLog("this is Big W test");
-//
-//        BrowserDriverInitializer.closeDriver();
-//
-//    }
 }

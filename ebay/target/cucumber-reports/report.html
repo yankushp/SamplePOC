@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 4, 2019 11:48:04 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 5, 2019 12:05:25 PM</span>
 				</a>
 			</li>
 			<li>
@@ -168,7 +168,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -188,12 +188,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Search and select the product on ebay</span>
-						<span class='test-time'>Sep 4, 2019 11:48:05 PM</span>
+						<span class='test-time'>Sep 5, 2019 12:05:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 19s+210ms</span>
+	<span class='duration right label'>0h 0m 19s+473ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Search and select the product on ebay website</span>
@@ -218,17 +218,33 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='6' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I enter the "Coles Little Shop 2 Mini collectables" and search the product</span>
+						<span class="bdd-step-name">And I enter the "book" and search the product</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='7' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I Select the product from product list page</span>
+						<span class="bdd-step-name">And I select the product from product list page</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='8' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then I see product purchase page</span>
+						<span class="bdd-step-name">Then I see added product in product purchase page</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='9' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I click on Add to cart button</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='10' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I see added product is displayed in cart</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='11' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I remove the product from cart</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='12' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I see a message you dont have any items in your cart</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\BigW\projects\ebay\target\cucumber-reports\screenshots\Search_and_select_the_product_on_ebay_website.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\BigW\projects\SamplePOC\ebay\target\cucumber-reports\screenshots\Search_and_select_the_product_on_ebay_website.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>passed</div>
 					</li>
@@ -313,7 +329,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 4, 2019 11:48:05 PM</td>
+										<td>Sep 5, 2019 12:05:25 PM</td>
 										<td class='linked' test-id='3'>Search and select the product on ebay.Search and select the product on ebay website.Search and select the product on ebay website</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -355,25 +371,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 4, 2019 11:48:04 PM</div>
+					<div class='panel-lead'>Sep 5, 2019 12:05:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 4, 2019 11:48:27 PM</div>
+			 		<div class='panel-lead'>Sep 5, 2019 12:05:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>22,803ms</div>
+					<div class='panel-lead'>20,799ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -447,7 +463,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 5,
+				passGrandChild: 9,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

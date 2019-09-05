@@ -12,6 +12,11 @@ public class EbayProductAddToCartPage {
     @FindBy(xpath = "//h1[@id=\"itemTitle\"]")
     WebElement ebaySelectedProductText;
 
+    @FindBy(xpath = "//span/a[contains(text(),\"Add to cart\")]")
+    WebElement addToCartButton;
+
+
+
     public EbayProductAddToCartPage(WebDriver _driver){
         driver = _driver;
         PageFactory.initElements(_driver, this);
@@ -21,5 +26,9 @@ public class EbayProductAddToCartPage {
         GenericFunction genericFunction = new GenericFunction(driver);
         genericFunction.waitForElementPresent(ebaySelectedProductText);
         return ebaySelectedProductText.getText();
+    }
+
+    public void clickAddToCartButton(){
+        addToCartButton.click();
     }
 }

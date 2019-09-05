@@ -37,16 +37,36 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I Select the product from product list page",
+  "name": "I select the product from product list page",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "I see product purchase page",
+  "name": "I see added product in product purchase page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on Add to cart button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "I see added product is displayed in cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "I remove the product from cart",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "I see a message you dont have any items in your cart",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 12,
+  "line": 16,
   "name": "",
   "description": "",
   "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;",
@@ -57,27 +77,27 @@ formatter.examples({
         "TestScenario Name",
         "Product name"
       ],
-      "line": 13,
+      "line": 17,
       "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;1"
     },
     {
       "cells": [
         "UI_TC_01",
         "Search and select the product",
-        "Coles Little Shop 2 Mini collectables"
+        "book"
       ],
-      "line": 14,
+      "line": 18,
       "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3889699956,
+  "duration": 2831096503,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
+  "line": 18,
   "name": "Search and select the product on ebay website",
   "description": "",
   "id": "search-and-select-the-product-on-ebay;search-and-select-the-product-on-ebay-website;;2",
@@ -106,7 +126,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the \"Coles Little Shop 2 Mini collectables\" and search the product",
+  "name": "I enter the \"book\" and search the product",
   "matchedColumns": [
     2
   ],
@@ -114,12 +134,32 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I Select the product from product list page",
+  "name": "I select the product from product list page",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "I see product purchase page",
+  "name": "I see added product in product purchase page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on Add to cart button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "I see added product is displayed in cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "I remove the product from cart",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "I see a message you dont have any items in your cart",
   "keyword": "Then "
 });
 formatter.match({
@@ -136,49 +176,77 @@ formatter.match({
   "location": "BaseTest.i_enter_test_case_to_execute_scenario_test(String,String)"
 });
 formatter.result({
-  "duration": 302581796,
+  "duration": 60360498,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayHomePageSteps.i_navigate_to_Ebay_website()"
 });
 formatter.result({
-  "duration": 3224667303,
+  "duration": 2806075323,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Coles Little Shop 2 Mini collectables",
+      "val": "book",
       "offset": 13
     }
   ],
   "location": "EbayHomePageSteps.i_enter_the_and_search_the_product(String)"
 });
 formatter.result({
-  "duration": 7916357376,
+  "duration": 6057896625,
   "status": "passed"
 });
 formatter.match({
-  "location": "EbayProductListPageSteps.i_Select_the_product_from_product_list_page()"
+  "location": "EbayProductListPageSteps.i_select_the_product_from_product_list_page()"
 });
 formatter.result({
-  "duration": 3429293604,
+  "duration": 4146428953,
   "status": "passed"
 });
 formatter.match({
-  "location": "EbayProductAddToCartPageSteps.i_see_product_purchase_page()"
+  "location": "EbayProductAddToCartPageSteps.i_see_added_product_in_product_purchase_page()"
 });
 formatter.result({
-  "duration": 311916546,
+  "duration": 51023178,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayProductAddToCartPageSteps.i_click_on_Add_to_cart_button()"
+});
+formatter.result({
+  "duration": 2751881446,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayCartPageSteps.i_see_added_product_is_displayed_in_cart()"
+});
+formatter.result({
+  "duration": 51871371,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayCartPageSteps.i_remove_the_product_from_cart()"
+});
+formatter.result({
+  "duration": 115147596,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayCartPageSteps.i_see_a_message_you_dont_have_any_items_in_your_cart()"
+});
+formatter.result({
+  "duration": 553199693,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1875642056,
+  "duration": 359680092,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1577787522,
+  "duration": 894586061,
   "status": "passed"
 });
 });

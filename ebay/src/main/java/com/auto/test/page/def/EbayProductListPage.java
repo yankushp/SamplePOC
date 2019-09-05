@@ -10,7 +10,7 @@ public class EbayProductListPage {
 
     public WebDriver driver;
 
-    @FindBy(xpath = "//li[@id=\"srp-river-results-listing1\"]//h3[contains(.,\"Coles Little Shop 2 Mini collectables\")]")
+    @FindBy(xpath = "//li[@id=\"srp-river-results-listing1\"]//h3")
     WebElement ebayFirstProduct;
 
     public EbayProductListPage(WebDriver _driver){
@@ -22,5 +22,8 @@ public class EbayProductListPage {
         GenericFunction genericFunction = new GenericFunction(driver);
         genericFunction.waitForElementPresent(ebayFirstProduct);
         ebayFirstProduct.click();
+    }
+    public String getProductName(){
+        return ebayFirstProduct.getText();
     }
 }
